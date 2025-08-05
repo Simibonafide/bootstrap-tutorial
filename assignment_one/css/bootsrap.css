@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+}
+
+.container-fluid {
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+    color: rgb(212, 198, 198);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    color: white;
+}
+
+.sub-head {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+    color: white;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.get-started {
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+.get-started:hover {
+    background-color: rgb(13, 13, 207);
+    border: none;
+    color: white;
+}
+
+h6 {
+    color: rgb(212, 198, 198);
+}
+
+h3 {
+    font-weight: bolder;
+    color: black;
+}
+
+.container-lg {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 20px;
+    color: black;
+}
+
+.card-img-top {
+    height: 60px;
+    width: 60px;
+}
+
+span {
+    color: blue;
+}
+
+.container-xxl {
+    background-color: whitesmoke;
+    margin-top: 40px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 20px;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 60px;
+    padding-top: 10px;
+}
+
+.box {
+    background-color: white;
+    box-shadow: 0px 5px 15px darkgray;
+    width: 270px;
+    height: 400px;
+    padding: 30px;
+}
+
+.head {
+    text-align: center;
+    padding-top: 60px;
+}
+
+sub {
+    color: gray;
+    font-size: small;
+}
+
+span>button {
+    color: blue;
+    border-color: blue;
+    background-color: white;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+span>button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.pro {
+    background-color: blue;
+    color: white;
+}
+
+.pro:hover {
+    background-color: rgb(9, 9, 200);
+    color: white;
+}
+
+.container-xl {
+    display: flex;
+    flex-direction: column;
+    height: 640px;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.client {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.feedback {
+    width: 700px;
+    padding: 20px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0px 2px 3px darkgray;
+    margin-top: 40px;
+}
+
+.feedback h6 {
+    font-size: small;
+    margin-left: 100px;
+    color: gray;
+    margin-top: -20px;
+}
+
+.get-in-touch {
+    background-color: whitesmoke;
+    padding-top: 60px;
+    text-align: center;
+    padding: 30px;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+input {
+    width: 400px;
+    align-items: center;
+}
+
+.btn-primary {
+    width: 400px;
+}
